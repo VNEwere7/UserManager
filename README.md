@@ -4,35 +4,19 @@
 
 This repository contains a simple demo API built with NodeJS.
 The API is used to manage users in a MongoDB database.
-<<<<<<< HEAD
 The application has been "dockerized", so you can start it up with little or no knowledge of the underlying technology.
 
-=======
->>>>>>> 622394f6c81d529ce1ddb4ea85ebf724bc2d3e51
 
 ### Development
 This application was developed using [ExpressJS](http://expressjs.com/). MongoDB was used for persisting data with [Mongoose](https://mongoosejs.com/) as [ORM](https://en.wikipedia.org/wiki/Object-relational_mapping). [Docker](https://www.docker.com) was used to pack and ship all the required libraries and dependencies as one package for easier installation and use of the application.
 
 ### Setting Docker up
 * Start up your terminal (or Command Prompt on Windows OS).
-<<<<<<< HEAD
 * Ensure that you have `docker` installed on your computer.
 * Clone the repository by entering the command `git clone https://github.com/VNEwere7/UserManager` in the terminal.
 * Navigate to the project folder using `cd UserManager` on your terminal (or command prompt)
 * After cloning, start docker with the command `service docker start`.
 * After this, you can then start the app with the command: `./setup.sh`.
-=======
-* Ensure that you've `node` installed on your PC.
-* Clone the repository by entering the command `git clone https://github.com/andela-bolajide/UserManager` in the terminal.
-* Navigate to the project folder using `cd UserManager` on your terminal (or command prompt)
-* After cloning, install the application's dependencies with the command `npm install`.
-* Create a `.env` file in your root directory as described in `.env.sample` file. Variables such as DB_URL (which must be a mongoDB URL) and PORT are defined in the .env file and it is essential you create this file before running the application.
-```
-PORT=3000
-DB_URL='mongodb://john:doe@localhost:27017/databaseName'
-```
-* After this, you can then start the server with the command: `npm start`.
->>>>>>> 622394f6c81d529ce1ddb4ea85ebf724bc2d3e51
 
 ### Testing
 To ensure that your installation is successful you'll need to run tests.
