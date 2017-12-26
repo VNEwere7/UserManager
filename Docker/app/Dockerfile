@@ -1,8 +1,8 @@
 # Define base image
 FROM node:9.3.0
 
+# Create working directory
 RUN mkdir /src
-
 WORKDIR /src
 
 # Install app dependencies

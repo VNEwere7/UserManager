@@ -1,6 +1,6 @@
 #!/bin/bash
 
-
+# Create .env file
 touch .env
 echo "PORT=3000" >> .env
 echo "DB_URL=mongodb://localhost:27017/mongodb" >> .env
