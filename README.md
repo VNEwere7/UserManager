@@ -14,7 +14,7 @@ This application was developed using [ExpressJS](http://expressjs.com/). MongoDB
 * Start up your terminal (or Command Prompt on Windows OS).
 * Ensure that you have `docker` installed on your computer.
 * Clone the repository by entering the command `git clone https://github.com/VNEwere7/UserManager` in the terminal.
-* Navigate to the project folder using `cd UserManager/Docker` on your terminal (or command prompt)
+* Navigate to the project folder using `cd UserManager` on your terminal (or command prompt)
 * After cloning, start docker with the command `service docker start`.
 * After this, you can then start the app with the command: `./setup.sh`.
 
