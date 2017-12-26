@@ -1,22 +1,9 @@
 version: '2.2'
 services:
-
-  myapp:
-    build: ./Docker/app
-    container_name:  "app"
-    image: node:9.3.0
-    environment:
-      - NODE_ENV=development
-    ports:
-      - 3000:3000
-    links:
-      - mongodb
-    depends_on:
-      - mongodb
-      
+    
   mongodb:
     build: ./Docker/db
-    container_name: "db"
+    container_name: db
     environment:
       - MONGO_DATA_DIR=/data/db
       - MONGO_LOG_DIR=/dev/null
