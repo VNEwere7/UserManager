@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Build MongoDB container
-docker build -f Dockerfile.db -t mongodb .
+# docker build -f ./db/Dockerfile -t mongodb .
 
 # Build Express app container
-docker build -f Dockerfile.app -t myapp .
+docker build -f ./app/Dockerfile -t myapp .
 
 # Configure the behaviour of the containers from docker-compose.yml
 # docker-compose up
